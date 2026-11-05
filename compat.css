@@ -1,0 +1,8 @@
+/* Compatibility fallbacks: apply before newer viewport and motion enhancements. */
+.panel { height: 100vh; }
+.hero-bottom { top: calc(100vh - 120px); }
+.brand, nav, .hero-bottom, .caption, .bottom-note, footer, .steps, .principles article, .flow, .closing, .pager { display: -webkit-box; display: -ms-flexbox; display: flex; }
+.intro { display: -ms-grid; display: grid; -ms-grid-columns: 40% 1fr; grid-template-columns: 40% 1fr; }
+.world { display: -ms-grid; display: grid; -ms-grid-columns: 48% 52%; grid-template-columns: 48% 52%; }
+.society-grid { display: -ms-grid; display: grid; -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; }
+.steps { display: -ms-grid; display: grid; -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: repeat(3,1fr); }
